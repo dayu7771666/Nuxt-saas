@@ -13,6 +13,12 @@ export default defineNuxtConfig({
     enabled: true
   },
 
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
+  },
+
   css: ['~/assets/css/main.css'],
 
   routeRules: {
